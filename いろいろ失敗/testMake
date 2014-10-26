@@ -1,0 +1,16 @@
+# Makefile
+
+hello: hello.o hello2.o
+  g++ -Wall -O2 -o exe_hello hello.o hello2.o
+
+hello.o: hello.cpp
+  g++ -c hello.cpp
+
+hello2.o: hello2.cpp
+  g++ -c hello2.cpp
+
+hello.o: hello2.h
+
+.PHONY: clean
+clean:
+  rm -f hello hello.o hello2.o
