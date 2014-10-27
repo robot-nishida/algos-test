@@ -3,13 +3,13 @@
 インストール先は
 /opt
 ではなく
-/Sodtware
+/Software
 にしました。
 
 drawstuff：
  R : ~/Software/src/ode-0.13 $ mkdir ~/Software/local/include/drawstuff
  R : ~/Software/src/ode-0.13 $ cp include/drawstuff/*.h ~/Software/local/include/drawstuff/
- R : ~/Software/src/ode-0.13 $ cp drawstuff//src/libdrawstuff.la ~/Software/local/lib/
+ R : ~/Software/src/ode-0.13 $ cp drawstuff/src/libdrawstuff.la ~/Software/local/lib/
  R : ~/Software/src/ode-0.13 $ cp drawstuff/src/.libs/libdrawstuff.a ~/Software/local/lib/
  R : ~/Software/src/ode-0.13 $ mkdir ~/Software/local/share/drawstuff
 
